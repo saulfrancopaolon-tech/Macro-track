@@ -187,6 +187,7 @@ export default function App() {
             todayEntries={todayEntries}
             removingId={removingId}
             onDelete={handleDeleteEntry}
+            onSaveEntry={handleSaveEntry}
             onEdit={openEditSheet}
             waterTotal={waterTotal}
             waterGoal={waterGoal}
